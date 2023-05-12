@@ -1,0 +1,82 @@
+img {
+  object-fit: contain;
+}
+
+nav {
+  background-color: orange;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  background-color: red;
+  height: 2000px;
+}
+
+.dflex {
+  display: flex;
+}
+
+.flexcol {
+  flex-direction: column;
+}
+
+.justifyandaligncenter {
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.py16 {
+  padding: 16px 0;
+}
+
+.my16 {
+  margin: 16px 0;
+}
+
+.alignselfcenter {
+  align-self: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.dnone {
+  display: none;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.minilogo {
+  width: 64px;
+}
+
+.menuexpanded {
+  margin-top: 32px;
+  background-color: aliceblue;
+}
+
+.spanline1 {
+  background-color: #001f3f;
+  height: 2px;
+  width: 80%;
+  margin: 8px 0;
+}
+
+.displaypage {
+  background-color: blueviolet;
+}
