@@ -12,6 +12,7 @@ const divservicios = document.querySelector('.divservicios');
 const arrowservicios = document.querySelector('.arrowservicios');
 const itemservicios = document.querySelector('.itemservicios');
 const servicioscontainer = document.querySelector('.servicioscontainer');
+const desktopsocialmediacontainer = document.querySelector('.desktopsocialmediacontainer');
 
 
 
@@ -26,12 +27,14 @@ function expandmenu() {
     if (desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
     if (!minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (logo.classList.contains('dnone')) logo.classList.toggle('dnone');
+    if (desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
     bigwindow = true;
   } else if ((window.innerWidth < 768 && bigwindow) || (window.innerWidth < 768 && bigwindow == undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
     if (!desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
     if (minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (!logo.classList.contains('dnone')) logo.classList.toggle('dnone');
+    if (!desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
     bigwindow = false;
   }
 }
