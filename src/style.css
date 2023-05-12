@@ -3,7 +3,9 @@ img {
 }
 
 nav {
-  background-color: orange;
+  align-self: flex-end;
+  font-size: 18px;
+  background-color: white;
 }
 
 header {
@@ -12,8 +14,13 @@ header {
 }
 
 body {
-  background-color: red;
+  background-color: white;
   height: 2000px;
+  color: #001f3f;
+}
+
+button {
+  height: 32px;
 }
 
 .dflex {
@@ -65,6 +72,10 @@ body {
   width: 64px;
 }
 
+.logo {
+  width: 230px;
+}
+
 .menuexpanded {
   margin-top: 32px;
   background-color: aliceblue;
@@ -73,10 +84,32 @@ body {
 .spanline1 {
   background-color: #001f3f;
   height: 2px;
-  width: 80%;
-  margin: 8px 0;
+  width: 100%;
+  margin: 4px 0;
 }
 
 .displaypage {
   background-color: blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 24px;
+  }
+
+  .spanline1 {
+    margin: 8px 0;
+  }
+
+  .desktopmenucontainer {
+    margin: 16px 0;
+  }
+
+  .desktopitem {
+    padding: 16px;
+  }
+
+  .contacto {
+    margin: 32px 0;
+  }
 }

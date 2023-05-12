@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  background-color: orange;\r\n}\r\n\r\nheader {\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: red;\r\n  height: 2000px;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #ff5239;\r\n  height: 2px;\r\n  width: 4%;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;AACrB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,8BAA8B;AAChC;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,gBAAgB;EAChB,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;EACzB,WAAW;EACX,SAAS;AACX;;AAEA;EACE,4BAA4B;AAC9B","sourcesContent":["img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  background-color: orange;\r\n}\r\n\r\nheader {\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: red;\r\n  height: 2000px;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #ff5239;\r\n  height: 2px;\r\n  width: 4%;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  background-color: orange;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n}\r\n\r\nbutton {\r\n  height: 32px;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  /* justify-content: center; */\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;AACrB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE,WAAW;EACX,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,cAAc;EACd,cAAc;AAChB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;EACnB,6BAA6B;AAC/B;;AAEA;EACE,8BAA8B;AAChC;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;EACzB,WAAW;EACX,WAAW;EACX,aAAa;AACf;;AAEA;EACE,4BAA4B;AAC9B;;AAEA;EACE;IACE,eAAe;EACjB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;AACF","sourcesContent":["img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  background-color: orange;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n}\r\n\r\nbutton {\r\n  height: 32px;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  /* justify-content: center; */\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -555,10 +555,57 @@ __webpack_require__.r(__webpack_exports__);
 
 const menuexpanded = document.querySelector('.menuexpanded');
 const menubutton = document.querySelector('.menubutton');
+const desktopmenucontainer = document.querySelector('.desktopmenucontainer');
+let bigwindow = undefined;
+const minilogo = document.querySelector('.minilogo');
+const logo = document.querySelector('.logo');
 
 menubutton.addEventListener('click', () => {
   menuexpanded.classList.toggle('dnone');
 });
+
+function expandmenu() {
+  if (window.innerWidth >= 768 && (!bigwindow || bigwindow == undefined)) {
+    if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
+    menubutton.classList.toggle('dnone');
+    desktopmenucontainer.classList.toggle('dnone');
+    minilogo.classList.toggle('dnone');
+    logo.classList.toggle('dnone');
+    bigwindow = true;
+  } else if (window.innerWidth < 768 && (bigwindow || bigwindow == undefined)) {
+    menubutton.classList.toggle('dnone');
+    desktopmenucontainer.classList.toggle('dnone');
+    minilogo.classList.toggle('dnone');
+    logo.classList.toggle('dnone');
+    bigwindow = false;
+  }
+}
+  
+window.addEventListener('resize', expandmenu);
+
+document.addEventListener('DOMContentLoaded', () => {
+  expandmenu();
+});
+
+// date and time
+
+const datetime = document.querySelector('.dateandtime');
+
+function updateTime() {
+  const date = new Date();
+  const options = {
+    month: 'long',
+    year: 'numeric',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+  };
+  const formattedDate = date.toLocaleDateString('en-US', options).replace(' at', ',');
+  datetime.innerHTML = formattedDate;
+}
+
+setInterval(updateTime, 1000);
 })();
 
 /******/ })()
