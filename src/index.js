@@ -5,27 +5,33 @@ import './style.css';
 const menuexpanded = document.querySelector('.menuexpanded');
 const menubutton = document.querySelector('.menubutton');
 const desktopmenucontainer = document.querySelector('.desktopmenucontainer');
-let bigwindow = undefined;
 const minilogo = document.querySelector('.minilogo');
 const logo = document.querySelector('.logo');
+let bigwindow = undefined; //helps with logic with expandmenu function
+const divservicios = document.querySelector('.divservicios');
+const arrowservicios = document.querySelector('.arrowservicios');
+const itemservicios = document.querySelector('.itemservicios');
+const servicioscontainer = document.querySelector('.servicioscontainer');
 
-menubutton.addEventListener('click', () => {
-  menuexpanded.classList.toggle('dnone');
-});
+
+
+// adjust navbar depending on window size
 
 function expandmenu() {
-  if (window.innerWidth >= 768 && (!bigwindow || bigwindow == undefined)) {
+  if ((window.innerWidth >= 768 && !bigwindow) || (window.innerWidth >= 768 && bigwindow == undefined)) {
     if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
-    menubutton.classList.toggle('dnone');
-    desktopmenucontainer.classList.toggle('dnone');
-    minilogo.classList.toggle('dnone');
-    logo.classList.toggle('dnone');
+    if (!divservicios.classList.contains('dnone')) divservicios.classList.replace('dflex', 'dnone');
+    if (arrowservicios.classList.contains('rotate90')) arrowservicios.classList.toggle('rotate90');
+    if (!menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
+    if (desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (!minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
+    if (logo.classList.contains('dnone')) logo.classList.toggle('dnone');
     bigwindow = true;
-  } else if (window.innerWidth < 768 && (bigwindow || bigwindow == undefined)) {
-    menubutton.classList.toggle('dnone');
-    desktopmenucontainer.classList.toggle('dnone');
-    minilogo.classList.toggle('dnone');
-    logo.classList.toggle('dnone');
+  } else if ((window.innerWidth < 768 && bigwindow) || (window.innerWidth < 768 && bigwindow == undefined)) {
+    if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
+    if (!desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
+    if (!logo.classList.contains('dnone')) logo.classList.toggle('dnone');
     bigwindow = false;
   }
 }
@@ -55,3 +61,31 @@ function updateTime() {
 }
 
 setInterval(updateTime, 1000);
+
+// menu
+
+menubutton.addEventListener('click', () => {
+  menuexpanded.classList.toggle('dnone');
+});
+
+arrowservicios.addEventListener('click', () => {
+  if (divservicios.classList.contains('dnone')) divservicios.classList.replace('dnone', 'dflex');
+  else divservicios.classList.replace('dflex', 'dnone');
+  arrowservicios.classList.toggle('rotate90');
+});
+
+// navbar desktop
+
+itemservicios.addEventListener('mouseenter', () => {
+  servicioscontainer.classList.toggle('dnone');
+});
+
+itemservicios.addEventListener('mouseleave', (e) => {
+  if (!e.relatedTarget.closest('.servicioscontainer')) {
+    servicioscontainer.classList.add('dnone');
+  }
+});
+
+servicioscontainer.addEventListener('mouseleave', () => {
+  servicioscontainer.classList.add('dnone');
+});

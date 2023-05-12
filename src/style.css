@@ -4,7 +4,7 @@ img {
 
 nav {
   align-self: flex-end;
-  font-size: 18px;
+  font-size: 16px;
   background-color: white;
 }
 
@@ -17,10 +17,12 @@ body {
   background-color: white;
   height: 2000px;
   color: #001f3f;
+  font-size: 18px;
 }
 
-button {
-  height: 32px;
+a {
+  text-decoration: none;
+  color: #001f3f;
 }
 
 .dflex {
@@ -92,9 +94,31 @@ button {
   background-color: blueviolet;
 }
 
+.contacto {
+  margin: 8px 0;
+}
+
+.arrowright {
+  width: 8px;
+  margin: 4px;
+}
+
+.divservicios {
+  margin: 0 24px;
+  justify-content: center;
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 24px;
+  }
+
+  nav {
+    font-size: 16px;
   }
 
   .spanline1 {
@@ -111,5 +135,13 @@ button {
 
   .contacto {
     margin: 32px 0;
+  }
+
+  .servicioscontainer {
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 32px;
+    /* top: 0;
+    left: 0; */
   }
 }
