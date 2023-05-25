@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 
 // console.log('loading');
 
@@ -43,6 +43,8 @@ window.addEventListener('resize', expandmenu);
 
 document.addEventListener('DOMContentLoaded', () => {
   expandmenu();
+  changeSlide(0);
+  showSlide(slideIndex);
 });
 
 // date and time
@@ -92,3 +94,40 @@ itemservicios.addEventListener('mouseleave', (e) => {
 servicioscontainer.addEventListener('mouseleave', () => {
   servicioscontainer.classList.add('dnone');
 });
+
+// slider images
+
+function showSlide(index) {
+  // Hide all slides
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+
+  // Show the selected slide
+  slides[index].classList.add("active");
+}
+
+let slideIndex = 0;
+let slides = document.getElementsByClassName("slide");
+const nextbutton = document.querySelector('.next');
+const prevbutton = document.querySelector('.prev');
+prevbutton.addEventListener('click', () => {
+  changeSlide(-1);
+});
+nextbutton.addEventListener('click', () => {
+  changeSlide(1);
+});
+
+function changeSlide(n) {
+  slideIndex += n;
+
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  } else if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+
+  showSlide(slideIndex);
+}
+
+// Show the initial slide
