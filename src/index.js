@@ -1,12 +1,12 @@
 import './style.css';
-import changeSlide from "./modules/slider.js";
+import changeSlide from './modules/slider.js';
 
 const menuexpanded = document.querySelector('.menuexpanded');
 const menubutton = document.querySelector('.menubutton');
 const desktopmenucontainer = document.querySelector('.desktopmenucontainer');
 const minilogo = document.querySelector('.minilogo');
 const logo = document.querySelector('.logo');
-let bigwindow = undefined; //helps with logic with expandmenu function
+let bigwindow; // helps with logic with expandmenu function
 const divservicios = document.querySelector('.divservicios');
 const arrowservicios = document.querySelector('.arrowservicios');
 const itemservicios = document.querySelector('.itemservicios');
@@ -16,8 +16,7 @@ const desktopsocialmediacontainer = document.querySelector('.desktopsocialmediac
 // sliders
 
 let slideIndex = 1;
-let slides = document.getElementsByClassName("slide");
-console.log(slides.length);
+const slides = document.getElementsByClassName('slide');
 const nextbutton = document.querySelector('.next');
 const prevbutton = document.querySelector('.prev');
 
@@ -29,45 +28,56 @@ nextbutton.addEventListener('click', () => {
 });
 
 let slideIndex2 = 1;
-let slides2 = document.getElementsByClassName("slide2");
+let slides2 = document.getElementsByClassName('slide2');
 
 const nextbutton2 = document.querySelector('.next2');
 const prevbutton2 = document.querySelector('.prev2');
 
 prevbutton2.addEventListener('click', () => {
-  let slidestoshow = bigwindow ? 6 : 1;
+  const slidestoshow = bigwindow ? 6 : 1;
   slideIndex2 = changeSlide(slideIndex2, -1, slides2, slidestoshow);
 });
 nextbutton2.addEventListener('click', () => {
-  let slidestoshow = bigwindow ? 6 : 1;
+  const slidestoshow = bigwindow ? 6 : 1;
   slideIndex2 = changeSlide(slideIndex2, 1, slides2, slidestoshow);
 });
 
 // adjust navbar depending on window size
 
 function expandmenu() {
-  if ((window.innerWidth >= 768 && !bigwindow) || (window.innerWidth >= 768 && bigwindow == undefined)) {
+  if ((window.innerWidth >= 768 && !bigwindow) || 
+  (window.innerWidth >= 768 && bigwindow == undefined)) {
     if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
-    if (!divservicios.classList.contains('dnone')) divservicios.classList.replace('dflex', 'dnone');
+    if (!divservicios.classList.contains('dnone')) {
+      divservicios.classList.replace('dflex', 'dnone');
+    }
     if (arrowservicios.classList.contains('rotate90')) arrowservicios.classList.toggle('rotate90');
     if (!menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
-    if (desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (desktopmenucontainer.classList.contains('dnone')) {
+      desktopmenucontainer.classList.toggle('dnone');
+    }
     if (!minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (logo.classList.contains('dnone')) logo.classList.toggle('dnone');
-    if (desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
+    if (desktopsocialmediacontainer.classList.contains('dnone')) {
+      desktopsocialmediacontainer.classList.toggle('dnone');
+    }
     bigwindow = true;
     slideIndex2 = changeSlide(slideIndex2 + 1, -1, slides2, 6);
-  } else if ((window.innerWidth < 768 && bigwindow) || (window.innerWidth < 768 && bigwindow == undefined)) {
+  } else if ((window.innerWidth < 768 && bigwindow) || 
+  (window.innerWidth < 768 && bigwindow == undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
-    if (!desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (!desktopmenucontainer.classList.contains('dnone')) {
+      desktopmenucontainer.classList.toggle('dnone');
+    }
     if (minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (!logo.classList.contains('dnone')) logo.classList.toggle('dnone');
-    if (!desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
+    if (!desktopsocialmediacontainer.classList.contains('dnone')) {
+      desktopsocialmediacontainer.classList.toggle('dnone');
+    }
     bigwindow = false;
     slideIndex2 = changeSlide(slideIndex2 +1, -1, slides2, 1);
   }
 }
-
 
 // date and time
 

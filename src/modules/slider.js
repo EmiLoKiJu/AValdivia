@@ -1,14 +1,13 @@
 const showSlide = (slideIndex, slidesArr, slidesToShow) => {
-  let slidestoshowinreality = slidesToShow;
   for (let i = 0; i < slidesArr.length; i++) {
-    slidesArr[i].classList.remove("active");
+    slidesArr[i].classList.remove('active');
   }
    
   const startIndex = slideIndex * slidesToShow;
   const endIndex = startIndex + slidesToShow;
   
   for (let i = startIndex; i < endIndex && i < slidesArr.length; i++) {
-    slidesArr[i].classList.add("active");
+    slidesArr[i].classList.add('active');
   }
 }
 
