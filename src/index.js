@@ -1,6 +1,5 @@
-// import './style.css';
-
-// console.log('loading');
+import './style.css';
+import changeSlide from "./modules/slider.js";
 
 const menuexpanded = document.querySelector('.menuexpanded');
 const menubutton = document.querySelector('.menubutton');
@@ -14,7 +13,35 @@ const itemservicios = document.querySelector('.itemservicios');
 const servicioscontainer = document.querySelector('.servicioscontainer');
 const desktopsocialmediacontainer = document.querySelector('.desktopsocialmediacontainer');
 
+// sliders
 
+let slideIndex = 1;
+let slides = document.getElementsByClassName("slide");
+console.log(slides.length);
+const nextbutton = document.querySelector('.next');
+const prevbutton = document.querySelector('.prev');
+
+prevbutton.addEventListener('click', () => {
+  slideIndex = changeSlide(slideIndex, -1, slides, 1);
+});
+nextbutton.addEventListener('click', () => {
+  slideIndex = changeSlide(slideIndex, 1, slides, 1);
+});
+
+let slideIndex2 = 1;
+let slides2 = document.getElementsByClassName("slide2");
+
+const nextbutton2 = document.querySelector('.next2');
+const prevbutton2 = document.querySelector('.prev2');
+
+prevbutton2.addEventListener('click', () => {
+  let slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = changeSlide(slideIndex2, -1, slides2, slidestoshow);
+});
+nextbutton2.addEventListener('click', () => {
+  let slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = changeSlide(slideIndex2, 1, slides2, slidestoshow);
+});
 
 // adjust navbar depending on window size
 
@@ -29,6 +56,7 @@ function expandmenu() {
     if (logo.classList.contains('dnone')) logo.classList.toggle('dnone');
     if (desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
     bigwindow = true;
+    slideIndex2 = changeSlide(slideIndex2 + 1, -1, slides2, 6);
   } else if ((window.innerWidth < 768 && bigwindow) || (window.innerWidth < 768 && bigwindow == undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
     if (!desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
@@ -36,16 +64,10 @@ function expandmenu() {
     if (!logo.classList.contains('dnone')) logo.classList.toggle('dnone');
     if (!desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
     bigwindow = false;
+    slideIndex2 = changeSlide(slideIndex2 +1, -1, slides2, 1);
   }
 }
-  
-window.addEventListener('resize', expandmenu);
 
-document.addEventListener('DOMContentLoaded', () => {
-  expandmenu();
-  changeSlide(0);
-  showSlide(slideIndex);
-});
 
 // date and time
 
@@ -95,39 +117,13 @@ servicioscontainer.addEventListener('mouseleave', () => {
   servicioscontainer.classList.add('dnone');
 });
 
-// slider images
+// document loaded
 
-function showSlide(index) {
-  // Hide all slides
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].classList.remove("active");
-  }
+window.addEventListener('resize', expandmenu);
 
-  // Show the selected slide
-  slides[index].classList.add("active");
-}
-
-let slideIndex = 0;
-let slides = document.getElementsByClassName("slide");
-const nextbutton = document.querySelector('.next');
-const prevbutton = document.querySelector('.prev');
-prevbutton.addEventListener('click', () => {
-  changeSlide(-1);
+document.addEventListener('DOMContentLoaded', () => {
+  expandmenu();
+  slideIndex = changeSlide(slideIndex, -1, slides, 1);
+  let slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = changeSlide(slideIndex2, -1, slides2, slidestoshow);
 });
-nextbutton.addEventListener('click', () => {
-  changeSlide(1);
-});
-
-function changeSlide(n) {
-  slideIndex += n;
-
-  if (slideIndex < 0) {
-    slideIndex = slides.length - 1;
-  } else if (slideIndex >= slides.length) {
-    slideIndex = 0;
-  }
-
-  showSlide(slideIndex);
-}
-
-// Show the initial slide
