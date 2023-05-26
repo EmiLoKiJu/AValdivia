@@ -28,7 +28,7 @@ nextbutton.addEventListener('click', () => {
 });
 
 let slideIndex2 = 1;
-let slides2 = document.getElementsByClassName('slide2');
+const slides2 = document.getElementsByClassName('slide2');
 
 const nextbutton2 = document.querySelector('.next2');
 const prevbutton2 = document.querySelector('.prev2');
@@ -45,8 +45,8 @@ nextbutton2.addEventListener('click', () => {
 // adjust navbar depending on window size
 
 function expandmenu() {
-  if ((window.innerWidth >= 768 && !bigwindow) || 
-  (window.innerWidth >= 768 && bigwindow == undefined)) {
+  if ((window.innerWidth >= 768 && !bigwindow)
+  || (window.innerWidth >= 768 && bigwindow === undefined)) {
     if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
     if (!divservicios.classList.contains('dnone')) {
       divservicios.classList.replace('dflex', 'dnone');
@@ -63,8 +63,8 @@ function expandmenu() {
     }
     bigwindow = true;
     slideIndex2 = changeSlide(slideIndex2 + 1, -1, slides2, 6);
-  } else if ((window.innerWidth < 768 && bigwindow) || 
-  (window.innerWidth < 768 && bigwindow == undefined)) {
+  } else if ((window.innerWidth < 768 && bigwindow)
+  || (window.innerWidth < 768 && bigwindow === undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
     if (!desktopmenucontainer.classList.contains('dnone')) {
       desktopmenucontainer.classList.toggle('dnone');
@@ -75,7 +75,7 @@ function expandmenu() {
       desktopsocialmediacontainer.classList.toggle('dnone');
     }
     bigwindow = false;
-    slideIndex2 = changeSlide(slideIndex2 +1, -1, slides2, 1);
+    slideIndex2 = changeSlide(slideIndex2 + 1, -1, slides2, 1);
   }
 }
 
@@ -134,6 +134,6 @@ window.addEventListener('resize', expandmenu);
 document.addEventListener('DOMContentLoaded', () => {
   expandmenu();
   slideIndex = changeSlide(slideIndex, -1, slides, 1);
-  let slidestoshow = bigwindow ? 6 : 1;
+  const slidestoshow = bigwindow ? 6 : 1;
   slideIndex2 = changeSlide(slideIndex2, -1, slides2, slidestoshow);
 });

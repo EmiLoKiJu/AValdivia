@@ -479,17 +479,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 const showSlide = (slideIndex, slidesArr, slidesToShow) => {
-  for (let i = 0; i < slidesArr.length; i++) {
+  for (let i = 0; i < slidesArr.length; i += 1) {
     slidesArr[i].classList.remove('active');
   }
-   
+
   const startIndex = slideIndex * slidesToShow;
   const endIndex = startIndex + slidesToShow;
-  
-  for (let i = startIndex; i < endIndex && i < slidesArr.length; i++) {
+
+  for (let i = startIndex; i < endIndex && i < slidesArr.length; i += 1) {
     slidesArr[i].classList.add('active');
   }
-}
+};
 
 const changeSlide = (slideIndex, n, slidesArr, slidesToShow) => {
   slideIndex += n;
@@ -500,9 +500,9 @@ const changeSlide = (slideIndex, n, slidesArr, slidesToShow) => {
   }
 
   showSlide(slideIndex, slidesArr, slidesToShow);
-  
+
   return slideIndex;
-}
+};
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeSlide);
 
@@ -620,7 +620,7 @@ nextbutton.addEventListener('click', () => {
 });
 
 let slideIndex2 = 1;
-let slides2 = document.getElementsByClassName('slide2');
+const slides2 = document.getElementsByClassName('slide2');
 
 const nextbutton2 = document.querySelector('.next2');
 const prevbutton2 = document.querySelector('.prev2');
@@ -637,8 +637,8 @@ nextbutton2.addEventListener('click', () => {
 // adjust navbar depending on window size
 
 function expandmenu() {
-  if ((window.innerWidth >= 768 && !bigwindow) || 
-  (window.innerWidth >= 768 && bigwindow == undefined)) {
+  if ((window.innerWidth >= 768 && !bigwindow)
+  || (window.innerWidth >= 768 && bigwindow === undefined)) {
     if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
     if (!divservicios.classList.contains('dnone')) {
       divservicios.classList.replace('dflex', 'dnone');
@@ -655,8 +655,8 @@ function expandmenu() {
     }
     bigwindow = true;
     slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2 + 1, -1, slides2, 6);
-  } else if ((window.innerWidth < 768 && bigwindow) || 
-  (window.innerWidth < 768 && bigwindow == undefined)) {
+  } else if ((window.innerWidth < 768 && bigwindow)
+  || (window.innerWidth < 768 && bigwindow === undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
     if (!desktopmenucontainer.classList.contains('dnone')) {
       desktopmenucontainer.classList.toggle('dnone');
@@ -667,7 +667,7 @@ function expandmenu() {
       desktopsocialmediacontainer.classList.toggle('dnone');
     }
     bigwindow = false;
-    slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2 +1, -1, slides2, 1);
+    slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2 + 1, -1, slides2, 1);
   }
 }
 
@@ -726,7 +726,7 @@ window.addEventListener('resize', expandmenu);
 document.addEventListener('DOMContentLoaded', () => {
   expandmenu();
   slideIndex = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex, -1, slides, 1);
-  let slidestoshow = bigwindow ? 6 : 1;
+  const slidestoshow = bigwindow ? 6 : 1;
   slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2, -1, slides2, slidestoshow);
 });
 })();
