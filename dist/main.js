@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  align-self: flex-end;\r\n  font-size: 16px;\r\n  background-color: white;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n  font-size: 18px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #001f3f;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  /* justify-content: center; */\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n.contacto {\r\n  margin: 8px 0;\r\n}\r\n\r\n.arrowright {\r\n  width: 8px;\r\n  margin: 4px;\r\n}\r\n\r\n.divservicios {\r\n  margin: 0 24px;\r\n  justify-content: center;\r\n}\r\n\r\n.rotate90 {\r\n  transform: rotate(90deg);\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  nav {\r\n    font-size: 16px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n\r\n  .servicioscontainer {\r\n    position: absolute;\r\n    margin-top: 48px;\r\n    margin-left: 32px;\r\n    /* top: 0;\r\n    left: 0; */\r\n  }\r\n\r\n  .desktopsocialmediacontainer {\r\n    margin-top: 28px;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;AACrB;;AAEA;EACE,oBAAoB;EACpB,eAAe;EACf,uBAAuB;AACzB;;AAEA;EACE,WAAW;EACX,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,cAAc;EACd,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;EACnB,6BAA6B;AAC/B;;AAEA;EACE,8BAA8B;AAChC;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;EACzB,WAAW;EACX,WAAW;EACX,aAAa;AACf;;AAEA;EACE,4BAA4B;AAC9B;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,UAAU;EACV,WAAW;AACb;;AAEA;EACE,cAAc;EACd,uBAAuB;AACzB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE;IACE,eAAe;EACjB;;EAEA;IACE,eAAe;EACjB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,kBAAkB;IAClB,gBAAgB;IAChB,iBAAiB;IACjB;cACU;EACZ;;EAEA;IACE,gBAAgB;EAClB;AACF","sourcesContent":["img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  align-self: flex-end;\r\n  font-size: 16px;\r\n  background-color: white;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n  font-size: 18px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #001f3f;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.justifyandaligncenter {\r\n  align-items: center;\r\n  /* justify-content: center; */\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n.contacto {\r\n  margin: 8px 0;\r\n}\r\n\r\n.arrowright {\r\n  width: 8px;\r\n  margin: 4px;\r\n}\r\n\r\n.divservicios {\r\n  margin: 0 24px;\r\n  justify-content: center;\r\n}\r\n\r\n.rotate90 {\r\n  transform: rotate(90deg);\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  nav {\r\n    font-size: 16px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n\r\n  .servicioscontainer {\r\n    position: absolute;\r\n    margin-top: 48px;\r\n    margin-left: 32px;\r\n    /* top: 0;\r\n    left: 0; */\r\n  }\r\n\r\n  .desktopsocialmediacontainer {\r\n    margin-top: 28px;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  align-self: flex-end;\r\n  font-size: 16px;\r\n  background-color: white;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n  font-size: 18px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #001f3f;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.aligncenter {\r\n  align-items: center;\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.spacearound {\r\n  justify-content: space-around;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n.contacto {\r\n  margin: 8px 0;\r\n}\r\n\r\n.arrowright {\r\n  width: 8px;\r\n  margin: 4px;\r\n}\r\n\r\n.divservicios {\r\n  margin: 0 24px;\r\n  justify-content: center;\r\n}\r\n\r\n.rotate90 {\r\n  transform: rotate(90deg);\r\n}\r\n\r\n.slideshow-container {\r\n  display: flex;\r\n  align-items: flex-start;\r\n  width: 100%;\r\n  height: 235px;\r\n  overflow: hidden;\r\n}\r\n\r\n.slide {\r\n  display: none;\r\n  opacity: 0;\r\n  transition: opacity 0.5s ease;\r\n}\r\n\r\n.slide.active {\r\n  display: block;\r\n  opacity: 1;\r\n}\r\n\r\n.slideshow-container2 {\r\n  width: 100%;\r\n  height: 235px;\r\n}\r\n\r\n.slide2 {\r\n  display: none;\r\n  opacity: 0;\r\n  transition: opacity 0.5s ease;\r\n}\r\n\r\n.slide2.active {\r\n  display: block;\r\n  opacity: 1;\r\n}\r\n\r\n.slide2 img {\r\n  width: 100px;\r\n}\r\n\r\n.prev,\r\n.next {\r\n  position: absolute;\r\n  top: 32%;\r\n  transform: translateY(-50%);\r\n  font-size: 24px;\r\n  background-color: black;\r\n  border: none;\r\n  color: white;\r\n  width: 40px;\r\n}\r\n\r\n.prev,\r\n.prev2 {\r\n  left: 10px;\r\n}\r\n\r\n.next,\r\n.next2 {\r\n  right: 10px;\r\n}\r\n\r\n.prev2,\r\n.next2 {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n  font-size: 24px;\r\n  background-color: black;\r\n  border: none;\r\n  color: white;\r\n  width: 40px;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  nav {\r\n    font-size: 16px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n\r\n  .servicioscontainer {\r\n    position: absolute;\r\n    margin-top: 48px;\r\n    margin-left: 32px;\r\n  }\r\n\r\n  .desktopsocialmediacontainer {\r\n    margin-top: 28px;\r\n  }\r\n\r\n  .slideshow-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    width: 100%;\r\n    height: 235px;\r\n  }\r\n\r\n  .prev,\r\n  .next {\r\n    position: absolute;\r\n    top: 40%;\r\n  }\r\n\r\n  .prev2,\r\n  .next2 {\r\n    position: absolute;\r\n    top: 60%;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;AACrB;;AAEA;EACE,oBAAoB;EACpB,eAAe;EACf,uBAAuB;AACzB;;AAEA;EACE,WAAW;EACX,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;EACvB,cAAc;EACd,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,8BAA8B;AAChC;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,2BAA2B;AAC7B;;AAEA;EACE,yBAAyB;EACzB,WAAW;EACX,WAAW;EACX,aAAa;AACf;;AAEA;EACE,4BAA4B;AAC9B;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,UAAU;EACV,WAAW;AACb;;AAEA;EACE,cAAc;EACd,uBAAuB;AACzB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,WAAW;EACX,aAAa;EACb,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,cAAc;EACd,UAAU;AACZ;;AAEA;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,aAAa;EACb,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,cAAc;EACd,UAAU;AACZ;;AAEA;EACE,YAAY;AACd;;AAEA;;EAEE,kBAAkB;EAClB,QAAQ;EACR,2BAA2B;EAC3B,eAAe;EACf,uBAAuB;EACvB,YAAY;EACZ,YAAY;EACZ,WAAW;AACb;;AAEA;;EAEE,UAAU;AACZ;;AAEA;;EAEE,WAAW;AACb;;AAEA;;EAEE,kBAAkB;EAClB,QAAQ;EACR,2BAA2B;EAC3B,eAAe;EACf,uBAAuB;EACvB,YAAY;EACZ,YAAY;EACZ,WAAW;AACb;;AAEA;EACE;IACE,eAAe;EACjB;;EAEA;IACE,eAAe;EACjB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,kBAAkB;IAClB,gBAAgB;IAChB,iBAAiB;EACnB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,WAAW;IACX,aAAa;EACf;;EAEA;;IAEE,kBAAkB;IAClB,QAAQ;EACV;;EAEA;;IAEE,kBAAkB;IAClB,QAAQ;EACV;AACF","sourcesContent":["img {\r\n  object-fit: contain;\r\n}\r\n\r\nnav {\r\n  align-self: flex-end;\r\n  font-size: 16px;\r\n  background-color: white;\r\n}\r\n\r\nheader {\r\n  width: 100%;\r\n  background-color: white;\r\n}\r\n\r\nbody {\r\n  background-color: white;\r\n  height: 2000px;\r\n  color: #001f3f;\r\n  font-size: 18px;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: #001f3f;\r\n}\r\n\r\n.dflex {\r\n  display: flex;\r\n}\r\n\r\n.flexcol {\r\n  flex-direction: column;\r\n}\r\n\r\n.aligncenter {\r\n  align-items: center;\r\n}\r\n\r\n.spacebetween {\r\n  justify-content: space-between;\r\n}\r\n\r\n.textcenter {\r\n  text-align: center;\r\n}\r\n\r\n.spacearound {\r\n  justify-content: space-around;\r\n}\r\n\r\n.py16 {\r\n  padding: 16px 0;\r\n}\r\n\r\n.my16 {\r\n  margin: 16px 0;\r\n}\r\n\r\n.alignselfcenter {\r\n  align-self: center;\r\n}\r\n\r\n.fixed {\r\n  position: fixed;\r\n}\r\n\r\n.dnone {\r\n  display: none;\r\n}\r\n\r\n.fwrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.minilogo {\r\n  width: 64px;\r\n}\r\n\r\n.logo {\r\n  width: 230px;\r\n}\r\n\r\n.menuexpanded {\r\n  margin-top: 32px;\r\n  background-color: aliceblue;\r\n}\r\n\r\n.spanline1 {\r\n  background-color: #001f3f;\r\n  height: 2px;\r\n  width: 100%;\r\n  margin: 4px 0;\r\n}\r\n\r\n.displaypage {\r\n  background-color: blueviolet;\r\n}\r\n\r\n.contacto {\r\n  margin: 8px 0;\r\n}\r\n\r\n.arrowright {\r\n  width: 8px;\r\n  margin: 4px;\r\n}\r\n\r\n.divservicios {\r\n  margin: 0 24px;\r\n  justify-content: center;\r\n}\r\n\r\n.rotate90 {\r\n  transform: rotate(90deg);\r\n}\r\n\r\n.slideshow-container {\r\n  display: flex;\r\n  align-items: flex-start;\r\n  width: 100%;\r\n  height: 235px;\r\n  overflow: hidden;\r\n}\r\n\r\n.slide {\r\n  display: none;\r\n  opacity: 0;\r\n  transition: opacity 0.5s ease;\r\n}\r\n\r\n.slide.active {\r\n  display: block;\r\n  opacity: 1;\r\n}\r\n\r\n.slideshow-container2 {\r\n  width: 100%;\r\n  height: 235px;\r\n}\r\n\r\n.slide2 {\r\n  display: none;\r\n  opacity: 0;\r\n  transition: opacity 0.5s ease;\r\n}\r\n\r\n.slide2.active {\r\n  display: block;\r\n  opacity: 1;\r\n}\r\n\r\n.slide2 img {\r\n  width: 100px;\r\n}\r\n\r\n.prev,\r\n.next {\r\n  position: absolute;\r\n  top: 32%;\r\n  transform: translateY(-50%);\r\n  font-size: 24px;\r\n  background-color: black;\r\n  border: none;\r\n  color: white;\r\n  width: 40px;\r\n}\r\n\r\n.prev,\r\n.prev2 {\r\n  left: 10px;\r\n}\r\n\r\n.next,\r\n.next2 {\r\n  right: 10px;\r\n}\r\n\r\n.prev2,\r\n.next2 {\r\n  position: absolute;\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n  font-size: 24px;\r\n  background-color: black;\r\n  border: none;\r\n  color: white;\r\n  width: 40px;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  body {\r\n    font-size: 24px;\r\n  }\r\n\r\n  nav {\r\n    font-size: 16px;\r\n  }\r\n\r\n  .spanline1 {\r\n    margin: 8px 0;\r\n  }\r\n\r\n  .desktopmenucontainer {\r\n    margin: 16px 0;\r\n  }\r\n\r\n  .desktopitem {\r\n    padding: 16px;\r\n  }\r\n\r\n  .contacto {\r\n    margin: 32px 0;\r\n  }\r\n\r\n  .servicioscontainer {\r\n    position: absolute;\r\n    margin-top: 48px;\r\n    margin-left: 32px;\r\n  }\r\n\r\n  .desktopsocialmediacontainer {\r\n    margin-top: 28px;\r\n  }\r\n\r\n  .slideshow-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    width: 100%;\r\n    height: 235px;\r\n  }\r\n\r\n  .prev,\r\n  .next {\r\n    position: absolute;\r\n    top: 40%;\r\n  }\r\n\r\n  .prev2,\r\n  .next2 {\r\n    position: absolute;\r\n    top: 60%;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -466,6 +466,46 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/modules/slider.js":
+/*!*******************************!*\
+  !*** ./src/modules/slider.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const showSlide = (slideIndex, slidesArr, slidesToShow) => {
+  for (let i = 0; i < slidesArr.length; i += 1) {
+    slidesArr[i].classList.remove('active');
+  }
+
+  const startIndex = slideIndex * slidesToShow;
+  const endIndex = startIndex + slidesToShow;
+
+  for (let i = startIndex; i < endIndex && i < slidesArr.length; i += 1) {
+    slidesArr[i].classList.add('active');
+  }
+};
+
+const changeSlide = (slideIndex, n, slidesArr, slidesToShow) => {
+  slideIndex += n;
+  if (slideIndex < 0) {
+    slideIndex = Math.ceil(slidesArr.length / slidesToShow) - 1;
+  } else if (slideIndex >= Math.ceil(slidesArr.length / slidesToShow)) {
+    slideIndex = 0;
+  }
+
+  showSlide(slideIndex, slidesArr, slidesToShow);
+
+  return slideIndex;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeSlide);
+
 /***/ })
 
 /******/ 	});
@@ -549,52 +589,87 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _modules_slider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/slider.js */ "./src/modules/slider.js");
 
 
-// console.log('loading');
 
 const menuexpanded = document.querySelector('.menuexpanded');
 const menubutton = document.querySelector('.menubutton');
 const desktopmenucontainer = document.querySelector('.desktopmenucontainer');
 const minilogo = document.querySelector('.minilogo');
 const logo = document.querySelector('.logo');
-let bigwindow = undefined; //helps with logic with expandmenu function
+let bigwindow; // helps with logic with expandmenu function
 const divservicios = document.querySelector('.divservicios');
 const arrowservicios = document.querySelector('.arrowservicios');
 const itemservicios = document.querySelector('.itemservicios');
 const servicioscontainer = document.querySelector('.servicioscontainer');
 const desktopsocialmediacontainer = document.querySelector('.desktopsocialmediacontainer');
 
+// sliders
 
+let slideIndex = 1;
+const slides = document.getElementsByClassName('slide');
+const nextbutton = document.querySelector('.next');
+const prevbutton = document.querySelector('.prev');
+
+prevbutton.addEventListener('click', () => {
+  slideIndex = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex, -1, slides, 1);
+});
+nextbutton.addEventListener('click', () => {
+  slideIndex = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex, 1, slides, 1);
+});
+
+let slideIndex2 = 1;
+const slides2 = document.getElementsByClassName('slide2');
+
+const nextbutton2 = document.querySelector('.next2');
+const prevbutton2 = document.querySelector('.prev2');
+
+prevbutton2.addEventListener('click', () => {
+  const slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2, -1, slides2, slidestoshow);
+});
+nextbutton2.addEventListener('click', () => {
+  const slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2, 1, slides2, slidestoshow);
+});
 
 // adjust navbar depending on window size
 
 function expandmenu() {
-  if ((window.innerWidth >= 768 && !bigwindow) || (window.innerWidth >= 768 && bigwindow == undefined)) {
+  if ((window.innerWidth >= 768 && !bigwindow)
+  || (window.innerWidth >= 768 && bigwindow === undefined)) {
     if (!menuexpanded.classList.contains('dnone')) menuexpanded.classList.toggle('dnone');
-    if (!divservicios.classList.contains('dnone')) divservicios.classList.replace('dflex', 'dnone');
+    if (!divservicios.classList.contains('dnone')) {
+      divservicios.classList.replace('dflex', 'dnone');
+    }
     if (arrowservicios.classList.contains('rotate90')) arrowservicios.classList.toggle('rotate90');
     if (!menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
-    if (desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (desktopmenucontainer.classList.contains('dnone')) {
+      desktopmenucontainer.classList.toggle('dnone');
+    }
     if (!minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (logo.classList.contains('dnone')) logo.classList.toggle('dnone');
-    if (desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
+    if (desktopsocialmediacontainer.classList.contains('dnone')) {
+      desktopsocialmediacontainer.classList.toggle('dnone');
+    }
     bigwindow = true;
-  } else if ((window.innerWidth < 768 && bigwindow) || (window.innerWidth < 768 && bigwindow == undefined)) {
+    slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2 + 1, -1, slides2, 6);
+  } else if ((window.innerWidth < 768 && bigwindow)
+  || (window.innerWidth < 768 && bigwindow === undefined)) {
     if (menubutton.classList.contains('dnone')) menubutton.classList.toggle('dnone');
-    if (!desktopmenucontainer.classList.contains('dnone')) desktopmenucontainer.classList.toggle('dnone');
+    if (!desktopmenucontainer.classList.contains('dnone')) {
+      desktopmenucontainer.classList.toggle('dnone');
+    }
     if (minilogo.classList.contains('dnone')) minilogo.classList.toggle('dnone');
     if (!logo.classList.contains('dnone')) logo.classList.toggle('dnone');
-    if (!desktopsocialmediacontainer.classList.contains('dnone')) desktopsocialmediacontainer.classList.toggle('dnone');
+    if (!desktopsocialmediacontainer.classList.contains('dnone')) {
+      desktopsocialmediacontainer.classList.toggle('dnone');
+    }
     bigwindow = false;
+    slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2 + 1, -1, slides2, 1);
   }
 }
-  
-window.addEventListener('resize', expandmenu);
-
-document.addEventListener('DOMContentLoaded', () => {
-  expandmenu();
-});
 
 // date and time
 
@@ -642,6 +717,17 @@ itemservicios.addEventListener('mouseleave', (e) => {
 
 servicioscontainer.addEventListener('mouseleave', () => {
   servicioscontainer.classList.add('dnone');
+});
+
+// document loaded
+
+window.addEventListener('resize', expandmenu);
+
+document.addEventListener('DOMContentLoaded', () => {
+  expandmenu();
+  slideIndex = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex, -1, slides, 1);
+  const slidestoshow = bigwindow ? 6 : 1;
+  slideIndex2 = (0,_modules_slider_js__WEBPACK_IMPORTED_MODULE_1__["default"])(slideIndex2, -1, slides2, slidestoshow);
 });
 })();
 

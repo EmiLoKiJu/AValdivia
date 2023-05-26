@@ -33,9 +33,8 @@ a {
   flex-direction: column;
 }
 
-.justifyandaligncenter {
+.aligncenter {
   align-items: center;
-  /* justify-content: center; */
 }
 
 .spacebetween {
@@ -44,6 +43,10 @@ a {
 
 .textcenter {
   text-align: center;
+}
+
+.spacearound {
+  justify-content: space-around;
 }
 
 .py16 {
@@ -112,6 +115,79 @@ a {
   transform: rotate(90deg);
 }
 
+.slideshow-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 235px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  display: block;
+  opacity: 1;
+}
+
+.slideshow-container2 {
+  width: 100%;
+  height: 235px;
+}
+
+.slide2 {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide2.active {
+  display: block;
+  opacity: 1;
+}
+
+.slide2 img {
+  width: 100px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 32%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: black;
+  border: none;
+  color: white;
+  width: 40px;
+}
+
+.prev,
+.prev2 {
+  left: 10px;
+}
+
+.next,
+.next2 {
+  right: 10px;
+}
+
+.prev2,
+.next2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: black;
+  border: none;
+  color: white;
+  width: 40px;
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 24px;
@@ -141,11 +217,29 @@ a {
     position: absolute;
     margin-top: 48px;
     margin-left: 32px;
-    /* top: 0;
-    left: 0; */
   }
 
   .desktopsocialmediacontainer {
     margin-top: 28px;
+  }
+
+  .slideshow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 235px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 40%;
+  }
+
+  .prev2,
+  .next2 {
+    position: absolute;
+    top: 60%;
   }
 }
